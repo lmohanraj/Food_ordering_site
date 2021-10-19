@@ -1,0 +1,141 @@
+body{
+    text-align:center;
+    padding:10px;
+    padding-right: 30px;
+    background-color:#fafafa;
+    font-family: 'Scheherazade New', serif;
+    display:flex;
+  }
+  .sideBar{
+      padding:20px;
+      margin:20px;
+  }
+  header{
+    display:flex;
+    justify-content: space-between;
+    font-size:40px;
+    font-weight:bold;
+    font-family: 'Playfair Display', serif;
+  }
+  .content, .cont{
+    margin:30px;
+    text-align:left;
+    font-size:40px;
+    line-height:45px;
+    font-weight:bold;
+    font-family: 'Playfair Display', serif;
+  }
+  img{
+    border-radius:50%;
+    height:120px;
+    width:120px;
+  }
+  .food{
+    font-weight:bold;
+    border-radius:15px;
+    background-color:#ffffff;
+    margin:5px;
+    padding:10px;
+    border-radius:15px;
+   box-shadow: 21px 20px 17px 9px rgba(0,0,0,0.17);
+  -webkit-box-shadow: 21px 20px 17px 9px rgba(0,0,0,0.17);
+  -moz-box-shadow: 21px 20px 17px 9px rgba(0,0,0,0.17);
+  }
+  .food-container{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+  }
+  footer{
+    color: #929292;
+    margin:20px;
+    text-align:justify;
+    font-size:1.5rem;
+    padding-right:30px;
+    line-height:25px;
+  }
+  
+  hr{
+    width:100px;
+    height:4px;
+    background-color:#fd4e4e;
+    border:none;
+    margin-left:0px;
+  }
+  .section2{
+      display:show;
+      display:flex;
+      flex-direction:row;
+    }
+  .sideBar{
+    padding-left:0px;;
+    padding-right:0px;
+  }
+  ul{
+    list-style-type:none;
+    text-align:left;
+    padding-right:30px;
+    padding-left:0px;
+    margin:20px;
+  }
+  li{
+    margin:20px;
+    color:grey;
+  }
+  .sideHeader{
+    font-size:2rem;
+    font-weight:bold;
+    line-height:35px;
+    font-family: 'Playfair Display', serif;
+  }
+  button{
+  border:none;
+    color:white;
+    width:100px;
+    height:40px;
+    border-radius:20px;
+    background-color:#fd4e4e;
+  }
+  
+  
+  @media(max-width:770px){
+    .sideBar{
+      display:none;
+    }
+    .section2{
+    display:none;
+  }
+  }
+  
+  @media(min-width:770px){
+    body{
+      padding-right:50px;
+      padding-left:0px;
+    }
+    .main-content{
+      padding-top:60px;
+    }
+    .food-container{
+      display:flex;
+      justify-content:space-between;
+  }
+    .content{
+      padding-bottom:0px;
+      font-size:3rem;
+      line-height:55px;
+      padding-left:0px;
+      font-family: 'Playfair Display', serif;
+    }
+    .cont{
+      display:none;
+    }
+    header{
+      display:none;
+    }
+    footer{
+      padding-top:0px;
+      width:500px;
+    }
+    .foot{
+      display:none;
+    }
+  }
